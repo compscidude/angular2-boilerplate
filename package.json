@@ -1,0 +1,32 @@
+{
+  "name": "angular-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack --progress",
+    "build:prod": "webpack -p --progress",
+    "postinstall": "typings install",
+    "serve": "webpack-dev-server --inline --progress"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.1",
+    "@angular/compiler": "2.0.1",
+    "@angular/core": "2.0.1",
+    "@angular/forms": "2.0.1",
+    "@angular/http": "2.0.1",
+    "@angular/platform-browser": "2.0.1",
+    "@angular/platform-browser-dynamic": "2.0.1",
+    "@angular/router": "3.0.1",
+    "core-js": "2.4.1",
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.25"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.17.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
