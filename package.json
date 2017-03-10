@@ -4,7 +4,7 @@
   "scripts": {
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
-    "postinstall": "typings install",
+    "postinstall": "typings --allow-root install",
     "serve": "webpack-dev-server --inline --progress"
   },
   "dependencies": {

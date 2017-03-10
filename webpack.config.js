@@ -1,6 +1,4 @@
 
-
-
 // This is a node module
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
